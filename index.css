@@ -1,0 +1,79 @@
+/* Custom for Claudio Estrada Website */
+
+* {
+  margin: 0;
+  padding: 0;
+  border-radius: 8px;
+  letter-spacing: 1px;
+}
+
+body {
+  background: #f2f2f2;
+  color: #000000;
+  font-family: Helvetica, Arial, sans-herif;
+  font-size: 14px;
+   text-align: center;
+}
+
+#presentation {
+  width: 800px;
+}
+
+#header, #footer {
+  background: #333333;
+  color: #000000;
+  padding: 30px;
+  margin: 10px;
+} 
+
+#footer {
+  text-align: center;
+  font-size: 16;
+}
+
+.lead {
+  font-size: 18px;
+}
+
+.blog-section {
+  background: #ffffff;
+  padding: 30px;
+  margin: 0 10px 10px;
+}
+
+h1, h2, h3 {
+  color: #ff0066;
+}
+
+.blog-section h2, photos p,  {
+  margin-bottom: 10px;
+}
+
+.blog-section em {
+  color: #000000;
+}
+
+#header:hover {
+  background-color: #ffffff; 
+  color:#f000000; 
+  transition: 1.0s;
+}
+
+.blog-section:hover {
+  background: #000000;
+   color:#ffffff; 
+  transition: 1.0s;
+}
+
+#footer:hover {
+  background-color: #ffffff; 
+  color:#f000000; 
+  transition: 1.0s;
+}
+
+#header, #footer, .blog-section {
+	 cursor: pointer;
+}
+
+
+
